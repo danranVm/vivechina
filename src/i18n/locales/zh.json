@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "首页",
+    "upcomingEvents": "即将到来的活动",
+    "festival": "节庆活动",
+    "tickets": "购票",
+    "followUs": "关注我们",
+    "toggleMenu": "切换菜单",
+    "viewUpcomingEvents": "查看即将到来的活动",
+    "learnAboutFestival": "了解节庆活动",
+    "buyTickets": "购买门票",
+    "followUsLabel": "关注我们",
+    "switchToSpanish": "Español",
+    "switchToChinese": "中文"
+  },
+  "hero": {
+    "title": "体验中国文化的精彩节庆",
+    "subtitle": "探索千年传统，感受东方魅力",
+    "buyTickets": "立即购票",
+    "learnMore": "了解更多",
+    "buyTicketsLabel": "立即购票",
+    "learnMoreLabel": "了解更多"
+  },
+  "eventos": {
+    "title": "即将到来的活动",
+    "learnMore": "了解更多",
+    "eventDate": "活动日期",
+    "eventLocation": "活动地点",
+    "learnMoreAbout": "了解更多关于 {title} 的信息",
+    "eventStage": "舞台区域",
+    "eventStageAerial": "舞台俯瞰",
+    "eventPlayground": "游乐区域",
+    "eventMask": "脸谱表演",
+    "eventMask1": "脸谱表演 1",
+    "eventMask2": "脸谱表演 2",
+    "eventMask3": "脸谱表演 3",
+    "eventPanda": "熊猫灯组",
+    "eventPanda1": "熊猫灯组 1",
+    "eventAnimal": "动物世界",
+    "events": [
+      {
+        "title": "传统灯会",
+        "description": "体验中国传统灯会的魅力，欣赏精美的花灯艺术",
+        "date": "2025年2月1日 - 2月15日",
+        "location": "北京"
+      },
+      {
+        "title": "川剧变脸",
+        "description": "观看精彩的川剧变脸表演，感受四川文化的独特魅力",
+        "date": "2025年3月1日 - 3月10日",
+        "location": "上海"
+      },
+      {
+        "title": "三星堆文物展",
+        "description": "探索失落的文明，欣赏三星堆的珍贵文物",
+        "date": "2025年4月1日 - 4月30日",
+        "location": "成都"
+      }
+    ]
+  },
+  "festival": {
+    "title": "节庆活动",
+    "intro1": "ViveChina 是拉美地区最大的中国灯节节庆活动。源自中国四川省，致力于通过结合传统、科技和艺术的表演，将千年文化带给全家人。",
+    "intro2": "自2019年以来，我们走遍了多个城市，用巨大的雕塑、传统艺术表演和独特的中国美食展示点亮了夜晚。",
+    "intro3": "每一届都是一次难忘的文化体验，庆祝东西方的相遇。",
+    "galleryTitle": "活动亮点",
+    "features": [
+      {
+        "title": "灯光雕塑",
+        "description": "欣赏精美的灯光雕塑作品，感受光影艺术的魅力"
+      },
+      {
+        "title": "传统表演",
+        "description": "观看精彩的传统文化表演，包括川剧变脸、舞龙舞狮等"
+      },
+      {
+        "title": "特色美食",
+        "description": "品尝地道的中国美食，体验舌尖上的中国"
+      },
+      {
+        "title": "纪念品商店",
+        "description": "购买精美的中国传统文化纪念品"
+      }
+    ],
+    "gallery": [
+      {
+        "alt": "灯光雕塑展示"
+      },
+      {
+        "alt": "传统表演"
+      },
+      {
+        "alt": "美食展示"
+      },
+      {
+        "alt": "活动现场"
+      }
+    ],
+    "lanternsTitle": "精美灯组",
+    "exhibitionTitle": "展会现场",
+    "lanternPanda": "熊猫灯组",
+    "lanternMask": "脸谱灯组",
+    "lanternLotus": "荷花灯组",
+    "lanternButterfly": "蝴蝶灯组",
+    "lanternWukong": "悟空灯组",
+    "lanternWealth": "财神灯组",
+    "lanternDragon": "龙通道灯组",
+    "lanternSpring": "春季主题",
+    "lanternSummer": "夏季主题",
+    "lanternAutumn": "秋季主题",
+    "lanternWinter": "冬季主题",
+    "exhibitionAerial": "场地俯瞰",
+    "exhibitionStage": "舞台区域",
+    "exhibitionBooth": "摊位区域",
+    "exhibitionFood": "特色美食",
+    "exhibitionPlayground": "游乐区域",
+    "exhibitionDaytime": "日间场地",
+    "exhibitionStageAerial": "舞台俯瞰"
+  },
+  "eventosRealizados": {
+    "title": "已举办的活动",
+    "eventInCity": "在 {city} 举办的活动",
+    "eventPhoto": "{city} 活动照片",
+    "cities": ["北京", "上海", "广州", "深圳", "成都", "杭州", "西安", "南京"]
+  },
+  "entradas": {
+    "title": "购买门票",
+    "infoText": "立即购买门票，体验精彩的中国文化节庆活动！",
+    "buyTicket": "立即购买",
+    "buyTicketLabel": "购买 {title} 门票",
+    "perPerson": "/人",
+    "ticketSelected": "您选择了 {title}，即将跳转到购票页面...",
+    "free": "免费",
+    "freeNote": "需出示身份证",
+    "tickets": [
+      {
+        "title": "成人票",
+        "subtitle": "13 - 69 岁",
+        "price": "20.00",
+        "currency": "S/",
+        "features": []
+      },
+      {
+        "title": "儿童票",
+        "subtitle": "4 - 12 岁",
+        "price": "10.00",
+        "currency": "S/",
+        "features": []
+      },
+      {
+        "title": "免费票",
+        "subtitle": "0-3岁、70岁以上、残疾人",
+        "price": "0.00",
+        "currency": "",
+        "features": [],
+        "freeButtonText1": "免费入场",
+        "freeButtonText2": "（出示身份证）"
+      }
+    ]
+  },
+  "footer": {
+    "description": "拉美地区最大的中国灯节节庆活动，致力于传播中国传统文化。",
+    "contactUs": "联系我们",
+    "followUs": "关注我们",
+    "footerNav": "页脚导航",
+    "visitFacebook": "访问我们的 Facebook 页面",
+    "visitInstagram": "访问我们的 Instagram 页面",
+    "visitYouTube": "访问我们的 YouTube 频道",
+    "visitTikTok": "访问我们的 TikTok 页面",
+    "allRightsReserved": "保留所有权利。"
+  },
+  "common": {
+    "skipToContent": "跳到主要内容",
+    "prev": "上一张",
+    "next": "下一张"
+  },
+  "seo": {
+    "title": "ViveChina - 体验中国文化的精彩节庆",
+    "description": "ViveChina - 体验中国文化的精彩节庆活动，展示中国传统艺术、美食和文化的独特魅力",
+    "keywords": "中国文化,节庆活动,传统艺术,中国美食,文化体验,灯会,川剧变脸,三星堆",
+    "ogTitle": "ViveChina - 体验中国文化的精彩节庆",
+    "ogDescription": "体验中国文化的精彩节庆活动，展示中国传统艺术、美食和文化的独特魅力",
+    "twitterTitle": "ViveChina - 体验中国文化的精彩节庆",
+    "twitterDescription": "体验中国文化的精彩节庆活动，展示中国传统艺术、美食和文化的独特魅力",
+    "schemaName": "ViveChina 节庆活动",
+    "schemaDescription": "体验中国文化的精彩节庆活动",
+    "schemaLocation": "活动场地"
+  }
+}
+

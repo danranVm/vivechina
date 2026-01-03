@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- 主页 -->
+  <url>
+    <loc>https://vivechina.nl/</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <!-- 多语言版本 -->
+    <xhtml:link rel="alternate" hreflang="es" href="https://vivechina.nl/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://vivechina.nl/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vivechina.nl/" />
+  </url>
+  <!-- 活动部分 -->
+  <url>
+    <loc>https://vivechina.nl/#eventos</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vivechina.nl/#eventos" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://vivechina.nl/#eventos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vivechina.nl/#eventos" />
+  </url>
+  <!-- 节庆部分 -->
+  <url>
+    <loc>https://vivechina.nl/#festival</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vivechina.nl/#festival" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://vivechina.nl/#festival" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vivechina.nl/#festival" />
+  </url>
+  <!-- 购票部分 -->
+  <url>
+    <loc>https://vivechina.nl/#entradas</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://vivechina.nl/#entradas" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://vivechina.nl/#entradas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vivechina.nl/#entradas" />
+  </url>
+</urlset>

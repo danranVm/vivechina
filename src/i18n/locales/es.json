@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "upcomingEvents": "Próximos Eventos",
+    "festival": "Festival",
+    "tickets": "Entradas",
+    "followUs": "Síguenos",
+    "toggleMenu": "Alternar menú",
+    "viewUpcomingEvents": "Ver próximos eventos",
+    "learnAboutFestival": "Conocer el festival",
+    "buyTickets": "Comprar entradas",
+    "followUsLabel": "Síguenos",
+    "switchToSpanish": "Español",
+    "switchToChinese": "中文"
+  },
+  "hero": {
+    "title": "Vive la Cultura China en Festivales Espectaculares",
+    "subtitle": "Explora milenios de tradición, siente el encanto oriental",
+    "buyTickets": "Comprar Entradas",
+    "learnMore": "Saber Más",
+    "buyTicketsLabel": "Comprar entradas ahora",
+    "learnMoreLabel": "Saber más"
+  },
+  "eventos": {
+    "title": "Próximos Eventos",
+    "learnMore": "Saber Más",
+    "eventDate": "Fecha del evento",
+    "eventLocation": "Ubicación del evento",
+    "learnMoreAbout": "Saber más sobre {title}",
+    "eventStage": "Área del Escenario",
+    "eventStageAerial": "Vista Aérea del Escenario",
+    "eventPlayground": "Área de Juegos",
+    "eventMask": "Actuación de Máscara",
+    "eventMask1": "Actuación de Máscara 1",
+    "eventMask2": "Actuación de Máscara 2",
+    "eventMask3": "Actuación de Máscara 3",
+    "eventPanda": "Linterna de Panda",
+    "eventPanda1": "Linterna de Panda 1",
+    "eventAnimal": "Mundo Animal",
+    "events": [
+      {
+        "title": "Festival de Linternas Tradicionales",
+        "description": "Experimenta el encanto del festival de linternas tradicionales chinas, disfruta del arte exquisito de las linternas",
+        "date": "1 de febrero - 15 de febrero, 2025",
+        "location": "Beijing"
+      },
+      {
+        "title": "Bianlian de Sichuan",
+        "description": "Disfruta de la increíble actuación de cambio de máscaras de la ópera de Sichuan, siente el encanto único de la cultura de Sichuan",
+        "date": "1 de marzo - 10 de marzo, 2025",
+        "location": "Shanghai"
+      },
+      {
+        "title": "Exposición de Sanxingdui",
+        "description": "Explora una civilización perdida, admira los preciosos artefactos de Sanxingdui",
+        "date": "1 de abril - 30 de abril, 2025",
+        "location": "Chengdu"
+      }
+    ]
+  },
+  "festival": {
+    "title": "Festival",
+    "intro1": "ViveChina es el festival de luces chinas más grande de Latinoamérica. Nacido en la provincia de Sichuan, China, busca acercar su milenaria cultura a través de espectáculos que combinan tradición, tecnología y arte para toda la familia.",
+    "intro2": "Desde 2019 hemos recorrido ciudades como Santiago, La Serena y Coquimbo, iluminando sus noches con figuras monumentales, presentaciones artísticas tradicionales y una muestra única de la gastronomía china.",
+    "intro3": "Cada edición es una experiencia cultural inolvidable que celebra el encuentro entre Oriente y Occidente.",
+    "galleryTitle": "Destacados del Evento",
+    "features": [
+      {
+        "title": "Esculturas Luminosas",
+        "description": "Admira exquisitas esculturas luminosas, siente el encanto del arte de luz y sombra"
+      },
+      {
+        "title": "Espectáculos Tradicionales",
+        "description": "Disfruta de increíbles presentaciones de cultura tradicional, incluyendo cambio de máscaras de Sichuan, danza del dragón y del león, etc."
+      },
+      {
+        "title": "Comida Típica",
+        "description": "Prueba auténtica comida china, experimenta China en la punta de la lengua"
+      },
+      {
+        "title": "Tienda de Merchandising",
+        "description": "Compra hermosos souvenirs de la cultura tradicional china"
+      }
+    ],
+    "gallery": [
+      {
+        "alt": "Exposición de esculturas luminosas"
+      },
+      {
+        "alt": "Espectáculos tradicionales"
+      },
+      {
+        "alt": "Exposición de comida"
+      },
+      {
+        "alt": "Escena del evento"
+      }
+    ],
+    "lanternsTitle": "Linternas Exquisitas",
+    "exhibitionTitle": "Escena de la Exposición",
+    "lanternPanda": "Linterna de Panda",
+    "lanternMask": "Linterna de Máscara de Ópera",
+    "lanternLotus": "Linterna de Loto",
+    "lanternButterfly": "Linterna de Mariposa",
+    "lanternWukong": "Linterna de Wukong",
+    "lanternWealth": "Linterna del Dios de la Riqueza",
+    "lanternDragon": "Túnel del Dragón",
+    "lanternSpring": "Tema de Primavera",
+    "lanternSummer": "Tema de Verano",
+    "lanternAutumn": "Tema de Otoño",
+    "lanternWinter": "Tema de Invierno",
+    "exhibitionAerial": "Vista Aérea del Lugar",
+    "exhibitionStage": "Área del Escenario",
+    "exhibitionBooth": "Área de Puestos",
+    "exhibitionFood": "Comida Típica",
+    "exhibitionPlayground": "Área de Juegos",
+    "exhibitionDaytime": "Lugar de Día",
+    "exhibitionStageAerial": "Vista Aérea del Escenario"
+  },
+  "eventosRealizados": {
+    "title": "Eventos Realizados",
+    "eventInCity": "Evento en {city}",
+    "eventPhoto": "Foto del evento en {city}",
+    "cities": ["Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Chengdu", "Hangzhou", "Xi'an", "Nanjing"]
+  },
+  "entradas": {
+    "title": "Compra tus Entradas",
+    "infoText": "¡Compra tus entradas ahora y experimenta el increíble festival cultural chino!",
+    "buyTicket": "Comprar Ahora",
+    "buyTicketLabel": "Comprar entrada {title}",
+    "perPerson": "/persona",
+    "ticketSelected": "Has seleccionado {title}, redirigiendo a la página de compra...",
+    "free": "GRATIS",
+    "freeNote": "Presentando DNI",
+    "tickets": [
+      {
+        "title": "Adulto",
+        "subtitle": "13 - 69 años",
+        "price": "20.00",
+        "currency": "S/",
+        "features": []
+      },
+      {
+        "title": "Niño",
+        "subtitle": "4 - 12 años",
+        "price": "10.00",
+        "currency": "S/",
+        "features": []
+      },
+      {
+        "title": "Gratis",
+        "subtitle": "0-3 años, +70 años, Discapacidad",
+        "price": "0.00",
+        "currency": "",
+        "features": [],
+        "freeButtonText1": "Ingreso Libre",
+        "freeButtonText2": "(Presentando DNI)"
+      }
+    ]
+  },
+  "footer": {
+    "description": "El festival de luces chinas más grande de Latinoamérica, dedicado a difundir la cultura tradicional china.",
+    "contactUs": "Contáctanos",
+    "followUs": "Síguenos",
+    "footerNav": "Navegación del pie de página",
+    "visitFacebook": "Visita nuestra página de Facebook",
+    "visitInstagram": "Visita nuestra página de Instagram",
+    "visitYouTube": "Visita nuestro canal de YouTube",
+    "visitTikTok": "Visita nuestra página de TikTok",
+    "allRightsReserved": "Todos los derechos reservados."
+  },
+  "common": {
+    "skipToContent": "Saltar al contenido principal",
+    "prev": "Anterior",
+    "next": "Siguiente"
+  },
+  "seo": {
+    "title": "ViveChina - Vive la Cultura China en Festivales Espectaculares",
+    "description": "ViveChina - Vive la cultura china en festivales espectaculares, muestra el arte tradicional, la comida y la cultura única de China",
+    "keywords": "cultura china,festivales,arte tradicional,comida china,experiencia cultural,festival de linternas,bianlian,sanxingdui",
+    "ogTitle": "ViveChina - Vive la Cultura China en Festivales Espectaculares",
+    "ogDescription": "Vive la cultura china en festivales espectaculares, muestra el arte tradicional, la comida y la cultura única de China",
+    "twitterTitle": "ViveChina - Vive la Cultura China en Festivales Espectaculares",
+    "twitterDescription": "Vive la cultura china en festivales espectaculares, muestra el arte tradicional, la comida y la cultura única de China",
+    "schemaName": "Festival ViveChina",
+    "schemaDescription": "Vive la cultura china en festivales espectaculares",
+    "schemaLocation": "Ubicación del evento"
+  }
+}
+
