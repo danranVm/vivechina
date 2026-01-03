@@ -139,6 +139,7 @@ pnpm preview
 ### SEO 配置文件
 
 所有 SEO 相关配置集中在 `src/config/seo.ts` 中，包括：
+
 - 网站 URL 和名称
 - 支持的语言列表
 - 社交媒体账号
@@ -147,6 +148,7 @@ pnpm preview
 ### 使用环境变量
 
 可以通过环境变量 `VITE_SITE_URL` 设置生产环境的网站 URL（用于 GitHub Pages 部署）：
+
 ```bash
 VITE_SITE_URL=https://your-username.github.io/vivechina
 ```
