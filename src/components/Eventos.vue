@@ -58,6 +58,7 @@ import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import LazyImage from './LazyImage.vue'
 import Carousel from './Carousel.vue'
+import { getImagePath } from '../utils/imagePath'
 
 const { t, tm } = useI18n()
 
@@ -72,31 +73,31 @@ const eventos = computed(() => {
   // 为每个活动准备多张图片用于轮播
   const eventImagesData = [
     {
-      image: '/images/events/stage-area.jpg',
-      placeholder: '/images/events/booth-area.jpg',
+      image: getImagePath('/images/events/stage-area.jpg'),
+      placeholder: getImagePath('/images/events/booth-area.jpg'),
       images: [
-        { src: '/images/exhibition/stage-area.jpg', alt: t('eventos.eventStage') },
-        { src: '/images/exhibition/stage-aerial-view.jpg', alt: t('eventos.eventStageAerial') },
-        { src: '/images/exhibition/playground-castle.jpg', alt: t('eventos.eventPlayground') }
+        { src: getImagePath('/images/exhibition/stage-area.jpg'), alt: t('eventos.eventStage') },
+        { src: getImagePath('/images/exhibition/stage-aerial-view.jpg'), alt: t('eventos.eventStageAerial') },
+        { src: getImagePath('/images/exhibition/playground-castle.jpg'), alt: t('eventos.eventPlayground') }
       ]
     },
     {
-      image: '/images/events/opera-mask.jpg',
-      placeholder: '/images/events/butterfly.jpg',
+      image: getImagePath('/images/events/opera-mask.jpg'),
+      placeholder: getImagePath('/images/events/butterfly.jpg'),
       images: [
-        { src: '/images/lanterns/opera-mask.jpg', alt: t('eventos.eventMask') },
-        { src: '/images/lanterns/opera-mask-1.jpg', alt: t('eventos.eventMask1') },
-        { src: '/images/lanterns/opera-mask-2.jpg', alt: t('eventos.eventMask2') },
-        { src: '/images/lanterns/opera-mask-3.jpg', alt: t('eventos.eventMask3') }
+        { src: getImagePath('/images/lanterns/opera-mask.jpg'), alt: t('eventos.eventMask') },
+        { src: getImagePath('/images/lanterns/opera-mask-1.jpg'), alt: t('eventos.eventMask1') },
+        { src: getImagePath('/images/lanterns/opera-mask-2.jpg'), alt: t('eventos.eventMask2') },
+        { src: getImagePath('/images/lanterns/opera-mask-3.jpg'), alt: t('eventos.eventMask3') }
       ]
     },
     {
-      image: '/images/events/panda.jpg',
-      placeholder: '/images/events/lotus.jpg',
+      image: getImagePath('/images/events/panda.jpg'),
+      placeholder: getImagePath('/images/events/lotus.jpg'),
       images: [
-        { src: '/images/lanterns/panda.jpg', alt: t('eventos.eventPanda') },
-        { src: '/images/lanterns/panda-1.jpg', alt: t('eventos.eventPanda1') },
-        { src: '/images/lanterns/animal-world.jpg', alt: t('eventos.eventAnimal') }
+        { src: getImagePath('/images/lanterns/panda.jpg'), alt: t('eventos.eventPanda') },
+        { src: getImagePath('/images/lanterns/panda-1.jpg'), alt: t('eventos.eventPanda1') },
+        { src: getImagePath('/images/lanterns/animal-world.jpg'), alt: t('eventos.eventAnimal') }
       ]
     }
   ]
@@ -107,8 +108,8 @@ const eventos = computed(() => {
     description: event.description,
     date: event.date,
     location: event.location,
-    image: eventImagesData[index]?.image || `/images/events/evento-${index + 1}.jpg`,
-    placeholder: eventImagesData[index]?.placeholder || `/images/events/evento-${index + 1}-placeholder.jpg`,
+    image: eventImagesData[index]?.image || getImagePath(`/images/events/evento-${index + 1}.jpg`),
+    placeholder: eventImagesData[index]?.placeholder || getImagePath(`/images/events/evento-${index + 1}-placeholder.jpg`),
     images: eventImagesData[index]?.images,
     link: '#entradas'
   }))

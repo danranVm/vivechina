@@ -4,7 +4,7 @@
       <div class="container">
         <div class="nav-content">
           <a href="/" class="logo" :aria-label="$t('nav.home')">
-            <img src="/images/logo.png" alt="ViveChina" class="logo-image" />
+            <img :src="logoPath" alt="ViveChina" class="logo-image" />
           </a>
           <button
             class="mobile-menu-toggle"
@@ -86,11 +86,13 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { getImagePath } from '../utils/imagePath'
 
 const { locale } = useI18n()
 const menuOpen = ref(false)
 
 const currentLocale = computed(() => locale.value)
+const logoPath = computed(() => getImagePath('/images/logo.png'))
 
 const toggleMenu = () => {
   menuOpen.value = !menuOpen.value

@@ -20,16 +20,21 @@
     </div>
     <div class="hero-image">
       <LazyImage
-        src="/images/hero/aerial-view.jpg"
+        :src="heroImagePath"
         :alt="$t('hero.title')"
-        placeholder="/images/hero/aerial-view-1.jpg"
+        :placeholder="heroPlaceholderPath"
       />
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
 import LazyImage from './LazyImage.vue'
+import { getImagePath } from '../utils/imagePath'
+
+const heroImagePath = computed(() => getImagePath('/images/hero/aerial-view.jpg'))
+const heroPlaceholderPath = computed(() => getImagePath('/images/hero/aerial-view-1.jpg'))
 </script>
 
 <style scoped>

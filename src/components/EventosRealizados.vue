@@ -11,9 +11,9 @@
           :aria-label="$t('eventosRealizados.eventInCity', { city })"
         >
           <LazyImage
-            :src="`/images/cities/${getCitySlug(city)}.jpg`"
+            :src="getImagePath(`/images/cities/${getCitySlug(city)}.jpg`)"
             :alt="$t('eventosRealizados.eventPhoto', { city })"
-            :placeholder="`/images/cities/${getCitySlug(city)}-placeholder.jpg`"
+            :placeholder="getImagePath(`/images/cities/${getCitySlug(city)}-placeholder.jpg`)"
           />
           <div class="city-overlay">
             <h3 class="city-name">{{ city }}</h3>
@@ -28,6 +28,7 @@
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import LazyImage from './LazyImage.vue'
+import { getImagePath } from '../utils/imagePath'
 
 const { tm } = useI18n()
 

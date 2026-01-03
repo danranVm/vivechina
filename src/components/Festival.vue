@@ -71,6 +71,7 @@
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import Carousel from './Carousel.vue'
+import { getImagePath } from '../utils/imagePath'
 
 const { t, tm } = useI18n()
 
@@ -85,28 +86,28 @@ const features = computed(() => {
 
 // 灯组照片轮播
 const lanternImages = computed(() => [
-  { src: '/images/lanterns/panda.jpg', alt: t('festival.lanternPanda'), placeholder: '/images/lanterns/panda-1.jpg' },
-  { src: '/images/lanterns/opera-mask.jpg', alt: t('festival.lanternMask'), placeholder: '/images/lanterns/opera-mask-1.jpg' },
-  { src: '/images/lanterns/lotus.jpg', alt: t('festival.lanternLotus'), placeholder: '/images/lanterns/lotus-1.jpg' },
-  { src: '/images/lanterns/butterfly.jpg', alt: t('festival.lanternButterfly'), placeholder: '/images/lanterns/butterfly-1.jpg' },
-  { src: '/images/lanterns/wukong.jpg', alt: t('festival.lanternWukong'), placeholder: '/images/lanterns/wukong-1.jpg' },
-  { src: '/images/lanterns/god-of-wealth.jpg', alt: t('festival.lanternWealth'), placeholder: '/images/lanterns/god-of-wealth-1.jpg' },
-  { src: '/images/lanterns/dragon-tunnel.jpg', alt: t('festival.lanternDragon'), placeholder: '/images/lanterns/dragon-tunnel-1.jpg' },
-  { src: '/images/lanterns/spring.jpg', alt: t('festival.lanternSpring') },
-  { src: '/images/lanterns/summer.jpg', alt: t('festival.lanternSummer') },
-  { src: '/images/lanterns/autumn.jpg', alt: t('festival.lanternAutumn') },
-  { src: '/images/lanterns/winter.jpg', alt: t('festival.lanternWinter') }
+  { src: getImagePath('/images/lanterns/panda.jpg'), alt: t('festival.lanternPanda'), placeholder: getImagePath('/images/lanterns/panda-1.jpg') },
+  { src: getImagePath('/images/lanterns/opera-mask.jpg'), alt: t('festival.lanternMask'), placeholder: getImagePath('/images/lanterns/opera-mask-1.jpg') },
+  { src: getImagePath('/images/lanterns/lotus.jpg'), alt: t('festival.lanternLotus'), placeholder: getImagePath('/images/lanterns/lotus-1.jpg') },
+  { src: getImagePath('/images/lanterns/butterfly.jpg'), alt: t('festival.lanternButterfly'), placeholder: getImagePath('/images/lanterns/butterfly-1.jpg') },
+  { src: getImagePath('/images/lanterns/wukong.jpg'), alt: t('festival.lanternWukong'), placeholder: getImagePath('/images/lanterns/wukong-1.jpg') },
+  { src: getImagePath('/images/lanterns/god-of-wealth.jpg'), alt: t('festival.lanternWealth'), placeholder: getImagePath('/images/lanterns/god-of-wealth-1.jpg') },
+  { src: getImagePath('/images/lanterns/dragon-tunnel.jpg'), alt: t('festival.lanternDragon'), placeholder: getImagePath('/images/lanterns/dragon-tunnel-1.jpg') },
+  { src: getImagePath('/images/lanterns/spring.jpg'), alt: t('festival.lanternSpring') },
+  { src: getImagePath('/images/lanterns/summer.jpg'), alt: t('festival.lanternSummer') },
+  { src: getImagePath('/images/lanterns/autumn.jpg'), alt: t('festival.lanternAutumn') },
+  { src: getImagePath('/images/lanterns/winter.jpg'), alt: t('festival.lanternWinter') }
 ])
 
 // 展会照片轮播
 const exhibitionImages = computed(() => [
-  { src: '/images/exhibition/aerial-view.jpg', alt: t('festival.exhibitionAerial'), placeholder: '/images/exhibition/aerial-view-1.jpg' },
-  { src: '/images/exhibition/stage-area.jpg', alt: t('festival.exhibitionStage') },
-  { src: '/images/exhibition/booth-area.jpg', alt: t('festival.exhibitionBooth'), placeholder: '/images/exhibition/booth-area-1.jpg' },
-  { src: '/images/exhibition/candied-hawthorn.jpg', alt: t('festival.exhibitionFood'), placeholder: '/images/exhibition/candied-hawthorn-1.jpg' },
-  { src: '/images/exhibition/playground-castle.jpg', alt: t('festival.exhibitionPlayground') },
-  { src: '/images/exhibition/daytime-aerial-view.jpg', alt: t('festival.exhibitionDaytime') },
-  { src: '/images/exhibition/stage-aerial-view.jpg', alt: t('festival.exhibitionStageAerial') }
+  { src: getImagePath('/images/exhibition/aerial-view.jpg'), alt: t('festival.exhibitionAerial'), placeholder: getImagePath('/images/exhibition/aerial-view-1.jpg') },
+  { src: getImagePath('/images/exhibition/stage-area.jpg'), alt: t('festival.exhibitionStage') },
+  { src: getImagePath('/images/exhibition/booth-area.jpg'), alt: t('festival.exhibitionBooth'), placeholder: getImagePath('/images/exhibition/booth-area-1.jpg') },
+  { src: getImagePath('/images/exhibition/candied-hawthorn.jpg'), alt: t('festival.exhibitionFood'), placeholder: getImagePath('/images/exhibition/candied-hawthorn-1.jpg') },
+  { src: getImagePath('/images/exhibition/playground-castle.jpg'), alt: t('festival.exhibitionPlayground') },
+  { src: getImagePath('/images/exhibition/daytime-aerial-view.jpg'), alt: t('festival.exhibitionDaytime') },
+  { src: getImagePath('/images/exhibition/stage-aerial-view.jpg'), alt: t('festival.exhibitionStageAerial') }
 ])
 </script>
 
